@@ -46,4 +46,6 @@ class User extends Authenticatable
     public function producto(){
         return $this->hasMany(Producto::class,'usuario_id');
     }
+
+    //asdasdsadasdsada
 }
