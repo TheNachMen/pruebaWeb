@@ -13,6 +13,7 @@
                     <th>usuario</th>
                     <th>numero</th>
                     <th>palabra</th>
+                    <th>hola</th>
                 </tr>
             </thead>
             <tbody>
