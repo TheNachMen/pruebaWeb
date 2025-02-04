@@ -15,6 +15,6 @@ class NumerosController extends Controller
         $palabra='aaaaaaa';
         $ost= "golden sun";
         $pre= "para pullear"
-        return view('prueba.numeros',compact('usuario','producto_por_usuario','palabra','ost'));
+        return view('prueba.numeros',compact('usuario','producto_por_usuario','palabra','ost','pre'));
     }
 }
