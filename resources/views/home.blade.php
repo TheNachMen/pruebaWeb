@@ -16,7 +16,7 @@
 
                     {{ __('You are logged in!') }}
                     <button>
-                            <h1>Hola Mundo!!</h1>
+                            <h1 style='color:blue;'>Hola Mundo!!</h1>
                             <a href="{{route('prueba.numeros')}}">numeros</a>
                     </button>
                     
