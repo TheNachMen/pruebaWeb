@@ -14,7 +14,8 @@ class NumerosController extends Controller
         $producto_por_usuario=Producto::where("id_usuario",Auth::id())->first();
         $palabra='aaaaaaa';
         $ost= "golden sun";
-        return view('prueba.numeros',compact('usuario','producto_por_usuario','palabra','ost'));
+        $pre= "para pullear"
+        return view('prueba.numeros',compact('usuario','producto_por_usuario','palabra','ost','pre'));
     }
 
     public function palabra(){
