@@ -23,4 +23,9 @@ class NumerosController extends Controller
         $palabra3='aaaaa';
         return view('home',compact('palabraP','palabra3'));
     }
+
+     public function auto(){
+        $auto='auto';
+        return view('home',compact('auto'));
+    }
 }
