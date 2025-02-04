@@ -16,4 +16,9 @@ class NumerosController extends Controller
         $ost= "golden sun";
         return view('prueba.numeros',compact('usuario','producto_por_usuario','palabra','ost'));
     }
+
+    public function palabra(){
+        $palabraP='palabra';
+        return view('home',compact('palabraP'));
+    }
 }
